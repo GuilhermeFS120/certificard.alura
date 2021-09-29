@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 :root {
-    --fonts: "Open Sans", monospace;
-    --bg-color: linear-gradient(0deg, rgb(0, 51, 204) 20%, rgb(0, 102, 255) 40%);
-    --bg-darkmode: linear-gradient(0deg, 		rgb(19, 19, 236) 10%, 		rgb(45, 45, 210) 25%);
+    --fonts: 'Poppins', 'Open Sans', sans-serif;
+    --bg-color: linear-gradient(-45deg, #265980 20%, #217cc2 40%);
+    --bg-darkmode: linear-gradient(-45deg, #092f4d 10%, #115b96 25%);
     --shadow: rgba(16, 16, 16, 0.42)
 }
 
@@ -110,7 +111,7 @@ body {
 
 .tema button:hover {
     border: 2px solid transparent;
-    background: rgb(0, 102, 255) ;
+    background: #217cc2 ;
     color: white;
     cursor: pointer;
 }
@@ -166,7 +167,7 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(0, 102, 255);
+    background: #217cc2;
     border: 1px solid white;
     border-radius: 10px;
 }
